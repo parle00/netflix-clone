@@ -1,0 +1,17 @@
+.mainImage {
+  @apply absolute left-0 top-0 object-cover object-center h-full w-full z-[-1] opacity-[0.3];
+}
+
+.bottom {
+  background: radial-gradient(
+      50% 500% at 50% -420%,
+      rgba(84, 97, 231, 0.4) 80%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    black;
+  @apply w-full h-[100px] absolute [clip-path:ellipse(66%_136%_at_50%_189%)] bottom-[0];
+}
+
+.main {
+  @apply relative top-0 left-0 w-auto h-auto;
+}
